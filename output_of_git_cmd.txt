@@ -133,50 +133,13 @@ VIVEK@Maru MINGW64 ~/OneDrive/Languages_i_Completed/Git_from_udemy/Creating_a_Re
 $
 
 
-
 part 3 : delete 
-
 default : git <branch name> -d
 force delete :  git <brnach name> -D  // this will force delete it 
 
 
-
-
-
-
 part 4 : add .   // adds all the files and changes no need to do it individually
 
-VIVEK@Maru MINGW64 ~/OneDrive/Languages_i_Completed/Git_from_udemy/Creating_a_Repository (master)
-$ git branch
-* master
-
-VIVEK@Maru MINGW64 ~/OneDrive/Languages_i_Completed/Git_from_udemy/Creating_a_Repository (master)
-$ git status
-On branch master
-Untracked files:
-  (use "git add <file>..." to include in what will be committed)
-        fukker.txt
-        output_of_git_cmd.txt
-
-nothing added to commit but untracked files present (use "git add" to track)
-
-VIVEK@Maru MINGW64 ~/OneDrive/Languages_i_Completed/Git_from_udemy/Creating_a_Repository (master)
-$ git add .
-
-VIVEK@Maru MINGW64 ~/OneDrive/Languages_i_Completed/Git_from_udemy/Creating_a_Repository (master)
-$ git commit -m "added fukker.txt with help of add ."
-[master a4459c3] added fukker.txt with help of add .
- 2 files changed, 150 insertions(+)
- create mode 100644 fukker.txt
- create mode 100644 output_of_git_cmd.txt
-
-VIVEK@Maru MINGW64 ~/OneDrive/Languages_i_Completed/Git_from_udemy/Creating_a_Repository (master)
-$ git status
-On branch master
-nothing to commit, working tree clean
-
-VIVEK@Maru MINGW64 ~/OneDrive/Languages_i_Completed/Git_from_udemy/Creating_a_Repository (master)
-$
 
 
 
@@ -185,6 +148,7 @@ $
 
 
 
+<<<<<<< HEAD
 
 part 5 : git log   // shows all the commits with commit message
 
@@ -279,3 +243,5 @@ bash output for part 8 :
 
 
 
+=======
+>>>>>>> parent of 8b0ac67 (commit to revert it back)
