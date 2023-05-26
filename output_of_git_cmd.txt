@@ -213,11 +213,66 @@ VIVEK@Maru MINGW64 ~/OneDrive/Languages_i_Completed/Git_from_udemy/Creating_a_Re
 $
 
 
+part 6 :  
 
 
-Part 6 : git revert <commit_id>   // you get commit id from "git log"
+VIVEK@Maru MINGW64 ~
+$ cd /c/Users/VIVEK/OneDrive/Languages_i_Completed/Git_from_udemy/Creating_a_Repository
+
+VIVEK@Maru MINGW64 ~/OneDrive/Languages_i_Completed/Git_from_udemy/Creating_a_Repository (master)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Part 7 : git revert <commit_id>   // you get commit id from "git log"
+
+
+
+VIVEK@Maru MINGW64 ~/OneDrive/Languages_i_Completed/Git_from_udemy/Creating_a_Repository (master)
+$ git revert 8b0ac674a4df2ef97c705a9810aa09afb52134cb
+error: Your local changes to the following files would be overwritten by merge:
+        output_of_git_cmd.txt
+Please commit your changes or stash them before you merge.
+Aborting
+fatal: revert failed
+
+
+
 
   
+
+
+
+
+
+part 8 : .gitignore // helps in hiding files and folders you dont want to get them accessced by public 
+
+just create a file named .gitignore in the woking directory
+inside .gitignore file type code as :
+/<foldernametohide>   
+<filenametohide>
+
+remember : 
+// its folders and files above both line are individiual entity they can even work even if they are not in the same directory
+
+
+
+bash output for part 8 :
+
+
+
 
 
 
